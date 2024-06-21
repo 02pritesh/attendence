@@ -27,4 +27,3 @@ Route::get('home_page',[AdminController::class,'home_page']);
 Route::get('admin_home_page',[AdminController::class,'home_page']);
 Route::post('user_detail',[AdminController::class,'add_user_detail']);
 Route::get('user_detail_info',[AdminController::class,'user_detail_info']);
-Route::get("nothing",[AdminController::class,'nothing']);
